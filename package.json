@@ -1,0 +1,15 @@
+{
+  "name": "file_metadata",
+  "version": "1.0.0",
+  "description": "Receives a form data object and returns the size ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Morrell",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
+  }
+}

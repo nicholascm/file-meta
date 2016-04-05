@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+  </head>
+  <body>
+     <div class = "container"> 
+      <div class = "row"> 
+        <div class = "col-md-12"> 
+          <nav class = "navbar navbar-dark bg-inverse"> 
+          <a class = "nav navbar-brand">file-meta</a>
+          <form class = "form-inline pull-xs-right">
+            <a href = "https://github.com/nicholascm90?tab=repositories" class = "btn btn-success-outline" type = "submit">Source
+            Code</a>
+          </form>
+        </nav>
+        <div class = "title col-md-6 col-md-offset-3">
+        </div>
+        <div class = "focus-item center-block">
+          <h2 class="text-xs-center">Get Your File's Metadata</h2>
+          <div id = "formAndButton">
+          <form id = "formObject" enctype="multipart/form-data" class = "text-xs-center formObject"> 
+             <input id ="formUpload" class = "text-xs-center" type = "file" name="image"> 
+          </form> 
+          <br>
+          <button id = "formSubmit" class = "btn btn-primary center-block">Send</button>
+          </div>
+          <br>     
+        <div class = "text-xs-center" style="display:none" id = "loading">
+            <i class="fa fa-spinner fa-pulse fa-3x"></i>
+            <br>
+            <br>
+            <p class = "text-xs-center"  id = "loading">Hold up a sec while we analyze your file.</p>
+          </div>
+          <div class = "text-xs-center" id = "response"></div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </body>
+    
+
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

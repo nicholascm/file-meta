@@ -1,0 +1,14 @@
+
+body {
+    background-color: #373a3c;
+    color: white;
+}
+.focus-item { 
+    padding-top: 100px; 
+      /*  outline-style:solid;
+    outline-width:1px;*/
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
