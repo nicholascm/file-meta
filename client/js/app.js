@@ -2,14 +2,6 @@ var $ = $;
 
 $('document').ready(function() {
     
-    
-    var file; 
-    
-    $("#formUpload").on("change", function(event) {
-         file = event.target.files[0]; 
-         console.log('uploaded'); 
-    });    
-
 
 
     $("#formSubmit").on("click", function(event) {
