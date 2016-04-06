@@ -41,7 +41,12 @@ $('document').ready(function() {
         console.log("woo"); 
         
     }); 
-  
+  /*
+  function showLoader(message) {
+        $("#response").html(function() { return message}); 
+        $("#loading").hide(); 
+        $("#formAndButton").show();
+  } */
 
 }); 
 
